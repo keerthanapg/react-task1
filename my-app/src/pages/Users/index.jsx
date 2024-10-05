@@ -11,6 +11,8 @@ import '../../styles/users.css';
 
 const Users = () => {
     const { users, fetchPaginatedData, pagination, setPagination, allUsers = [] } = useContext(AppContext);
+    //implementing single page search as confused with the task, 
+    //implementing all data search for products page to check both search feature
     const [searchQuery, setSearchQuery] = useState('');
     const [showSearch, setShowSearch] = useState(false);
     const [selectedFilter, setSelectedFilter] = useState({ key: '', value: '' });
@@ -52,7 +54,7 @@ const Users = () => {
         <>
             <h2 className="users-heading">Users</h2>
 
-            {/* Home icon at the top-right corner */}
+
             <div style={{ position: 'absolute', top: 20, right: 20 }}>
                 <Link to="/" className="home-link">
                     <FaHome size={24} style={{ color: '#000' }} /> {/* Home icon */}
