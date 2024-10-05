@@ -1,0 +1,29 @@
+.homepage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.nav-button {
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #322625;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #fdc936;
+}
+
+h1 {
+    font-family: 'Neutra Text', sans-serif;
+    color: #322625;
+}

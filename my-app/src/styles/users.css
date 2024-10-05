@@ -1,0 +1,85 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #c0e3e5; 
+}
+
+th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #322625; 
+}
+
+tbody tr:first-child {
+    background-color: #ebebeb; 
+}
+
+
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: black; 
+}
+
+.users-heading {
+    background-color: yellow; 
+    padding: 10px;
+    width: 65px;
+}
+
+.products-heading {
+    background-color: yellow; 
+    padding: 10px; 
+    width: 100px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px; 
+}
+
+.search-icon {
+    color: black;
+}
+
+.search-input {
+    padding: 8px; 
+    border: 1px solid #ccc; 
+}
+
+.search-button:hover {
+    opacity: 0.8; 
+}
+/* users.css */
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('/public/fonts/neutra-text-tf-5871e0b0704ed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Neutra Text', sans-serif;
+  }
+  
+  table {
+    font-family: 'Neutra Text', sans-serif;
+  }
+  
+  td, th {
+    font-family: 'Neutra Text', sans-serif;
+    font-size: 16px; 
+  }
+  
